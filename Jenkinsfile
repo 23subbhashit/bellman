@@ -56,7 +56,9 @@ pipeline {
                 script {
                     ansiblePlaybook(
                         playbook: 'deploy.yml',
-                        inventory: 'inventory'
+                        inventory: 'inventory',
+                        colorized: true,
+                        installation: 'ansible'
                     )
                 }
             }
