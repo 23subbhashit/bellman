@@ -24,7 +24,7 @@ public class ShortestPathController {
         return "Hello,World!";
     }
 
-    @GetMapping("/shortest-path")
+    @GetMapping("/bellmanford")
     public ShortestPathResult findShortestPath(
             @RequestParam("start") String start,
             @RequestParam("end") String end) {
