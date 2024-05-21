@@ -9,3 +9,25 @@
 2024-05-21T11:05:39.110+05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
 2024-05-21T11:05:39.156+05:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path ''
 2024-05-21T11:05:39.184+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - Started CampusPathFinderBellmanFordApplication in 3.399 seconds (JVM running for 5.641)
+2024-05-21T19:09:59.852+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - Starting CampusPathFinderBellmanFordApplication using Java 11.0.21 on DESKTOP-GO8MFI3 with PID 22824 (C:\Users\User\Desktop\MajorFinal\bellman\target\classes started by User in C:\Users\User\Desktop\MajorFinal\bellman)
+2024-05-21T19:09:59.895+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-21T19:10:03.940+05:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+2024-05-21T19:10:03.996+05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+2024-05-21T19:10:03.998+05:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-21T19:10:04.002+05:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-05-21T19:10:04.290+05:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-21T19:10:04.291+05:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4194 ms
+2024-05-21T19:10:05.705+05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+2024-05-21T19:10:05.760+05:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path ''
+2024-05-21T19:10:05.820+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - Started CampusPathFinderBellmanFordApplication in 7.645 seconds (JVM running for 16.151)
+2024-05-21T19:45:09.522+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - Starting CampusPathFinderBellmanFordApplication using Java 11.0.21 on DESKTOP-GO8MFI3 with PID 24220 (C:\Users\User\Desktop\MajorFinal\bellman\target\classes started by User in C:\Users\User\Desktop\MajorFinal\bellman)
+2024-05-21T19:45:09.550+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-21T19:45:11.818+05:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9191 (http)
+2024-05-21T19:45:11.866+05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9191"]
+2024-05-21T19:45:11.869+05:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-21T19:45:11.872+05:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2024-05-21T19:45:12.055+05:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-21T19:45:12.056+05:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2401 ms
+2024-05-21T19:45:13.111+05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9191"]
+2024-05-21T19:45:13.159+05:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9191 (http) with context path ''
+2024-05-21T19:45:13.193+05:30 [main] INFO  com.spe.major.project.campuspathfinderbellmanford.CampusPathFinderBellmanFordApplication - Started CampusPathFinderBellmanFordApplication in 4.68 seconds (JVM running for 8.216)

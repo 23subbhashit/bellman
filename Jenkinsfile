@@ -65,7 +65,7 @@ pipeline {
 //         }
         stage('Deploy to Kubernetes') {
                     steps {
-                        dir('/mnt/c/Users/User') {
+                        dir('/mnt/c/Users/User/desktop/majorfinal/bellman') {
                             sh 'kubectl apply -f kubernetes/'
                         }
                     }
