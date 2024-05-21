@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
-    <!-- Define properties for log pattern and file location -->
     <Properties>
         <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZZ} [%t] %-5level %logger{36} - %msg%n</Property>
         <Property name="LOG_FILE">logs/application3.log</Property>
     </Properties>
 
     <Appenders>
-        <!-- Console appender with the defined pattern -->
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="${LOG_PATTERN}" charset="UTF-8"/>
         </Console>

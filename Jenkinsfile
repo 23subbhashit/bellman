@@ -51,16 +51,21 @@ pipeline {
             }
         }
 
-        stage('Deploy with Ansible') {
+//         stage('Deploy with Ansible') {
+//             steps {
+//                 script {
+//                     ansiblePlaybook(
+//                         playbook: 'deploy.yml',
+//                         inventory: 'inventory',
+//                         colorized: true,
+//                         installation: 'ansible'
+//                     )
+//                 }
+//             }
+//         }
+        stage('Deploy to Kubernetes') {
             steps {
-                script {
-                    ansiblePlaybook(
-                        playbook: 'deploy.yml',
-                        inventory: 'inventory',
-                        colorized: true,
-                        installation: 'ansible'
-                    )
-                }
+                sh 'kubectl apply -f kubernetes/'
             }
         }
     }
