@@ -64,9 +64,11 @@ pipeline {
 //             }
 //         }
         stage('Deploy to Kubernetes') {
-            steps {
-                sh 'kubectl apply -f kubernetes/'
-            }
-        }
+                    steps {
+                        dir('/mnt/c/Users/User') {
+                            sh 'kubectl apply -f kubernetes/'
+                        }
+                    }
+                }
     }
 }
