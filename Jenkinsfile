@@ -63,6 +63,17 @@ pipeline {
 //                 }
 //             }
 //         }
+        stage('Run Python Script') {
+                    steps {
+                        script {
+                            // Install necessary Python dependencies
+                            sh 'pip3 install elasticsearch'
+
+                            // Run the Python script to upload logs
+                            sh 'python3 parsernew2.py'
+                        }
+                    }
+                }
         stage('Deploy to Kubernetes') {
                     steps {
                         dir('/mnt/c/Users/User/desktop/majorfinal/bellman') {
